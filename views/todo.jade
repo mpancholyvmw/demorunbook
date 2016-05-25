@@ -1,0 +1,11 @@
+h1 New RunBook Content 
+form(action="/save", method="post")
+  p
+    label Enter a new runbook item
+    input(type='text',placeholder='new runbook item', name='todo-text')
+  p
+    input(type='submit', value='Save')
+ul
+  each todo in todos
+    li #{todo.text}
+
