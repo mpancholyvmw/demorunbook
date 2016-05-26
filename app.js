@@ -1,6 +1,6 @@
 
 /**
- * Module dependencies.
+Demo RunBook example for VM.
  */
 
 var express = require('express'),
