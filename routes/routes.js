@@ -1,6 +1,6 @@
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Welcome to JSPlayground Todo' });
+  res.render('index', { title: 'Welcome to VMware Runbook' });
 };
 
 exports.about = function(req, res){
