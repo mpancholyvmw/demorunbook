@@ -36,8 +36,3 @@ exports.saveTodo = function(req, res) {
   res.redirect("back");
 };
 
-exports.clearTodo = function(req,res) {
-    client.flushdb(function(err,succeded){
-        console.log(succeeded)
-    });
-}
