@@ -10,6 +10,6 @@
     "connect-redis": "~1.4.0"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "nodejs app.js"
   }
 }
