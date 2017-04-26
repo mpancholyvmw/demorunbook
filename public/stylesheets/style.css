@@ -9,3 +9,24 @@ a {
   color: #00B7FF;
 }
 
+
+ol {
+    background: #ff9999;
+    padding: 20px;
+}
+
+ul {
+    background: #cce5ff;
+    padding: 20px;
+}
+
+ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul li {
+    background: #99D5FF;
+    margin: 5px;
+}
