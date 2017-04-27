@@ -35,9 +35,3 @@ exports.saveTodo = function(req, res) {
   client.hset("Todo", newTodo.id, newTodo.name);
   res.redirect("back");
 };
-
-exports.clearTodo = function(req,res) {
-    client.flushdb();
-    res.redirect("back");
-};
-
